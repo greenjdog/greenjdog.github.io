@@ -46,6 +46,10 @@
     margin: 10px 0;
     color: #4c56de;
    }
+   h2 {
+    font-size: 18;
+    color: grey;
+   }
    p {
     color: #666;
     font-size: 0.9em;
