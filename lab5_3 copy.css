@@ -1,0 +1,68 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   }
+   body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: #e9ecef;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+   }
+   .card-container {
+    perspective: 1000px; /* For a subtle 3D effect on hover */
+   }
+   .card {
+    width: 300px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: white;
+    border-radius: 10px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    transition: transform 0.3s;
+   }
+   .card:hover {
+    transform: rotateX(5deg);
+    background-color: azure;
+   }
+   .avatar {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border: 5px dashed lightblue; 
+   }
+   .avatar:hover {
+    filter: grayscale(100%);
+   }
+   .info {
+    text-align: center;
+    padding: 20px;
+   }
+   h1 {
+    margin: 10px 0;
+    color: lightblue;
+   }
+   p {
+    color: #666;
+    font-size: 0.9em;
+   }
+   .social-icons {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+   }
+   .social-icons img {
+    width: 24px;
+    height: 24px;
+    margin: 0 10px;
+   }
+   .social-icons a {
+    transition: transform 0.4s;
+   }
+   .social-icons a:hover {
+    transform: scale(1.2);
+   }
