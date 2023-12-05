@@ -33,7 +33,7 @@
     width: 200px;
     height: 200px;
     border-radius: 50%;
-    border: 5px dashed lightblue; 
+    border: 5px dashed #4c56de; 
    }
    .avatar:hover {
     filter: grayscale(100%);
@@ -44,7 +44,7 @@
    }
    h1 {
     margin: 10px 0;
-    color: lightblue;
+    color: #4c56de;
    }
    p {
     color: #666;
